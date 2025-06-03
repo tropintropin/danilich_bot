@@ -50,7 +50,6 @@ dump.rdb
 
 # === Config/secrets ===
 .env
-.env.*
 secrets.json
 config.json
 
@@ -79,3 +78,6 @@ Pipfile.lock
 # === Docker / archives ===
 *.tar
 *.gz
+
+# === Miscellaneous ===
+data/employees.json

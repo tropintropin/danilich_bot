@@ -1,0 +1,13 @@
+[
+    {
+        "telegram_id": null,
+        "surname": "",
+        "name": "",
+        "patronymic": "",
+        "position": "",
+        "department": "",
+        "photo_id": "",
+        "is_on_duty": true,
+        "is_admin": false
+    }
+]

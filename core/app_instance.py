@@ -1,3 +1,8 @@
+"""
+This module initializes the bot and dispatcher instances for the Telegram bot application.
+It sets up the Redis storage for state management and configures the bot with the necessary properties.
+"""
+
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode

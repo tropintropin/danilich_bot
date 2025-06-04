@@ -1,4 +1,8 @@
-"""Bot configuration data."""
+"""
+Bot configuration data.
+
+This module defines the settings for the bot, including the bot token, admin ID, and Redis configuration.
+"""
 
 from typing import Optional
 
@@ -20,4 +24,4 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=ENV_PATH)
 
 
-settings = Settings()
+settings: Settings = Settings()

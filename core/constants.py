@@ -1,3 +1,9 @@
+"""
+Constants used in the application.
+
+This module defines constants that are used throughout the application.
+"""
+
 from enum import StrEnum
 
 
